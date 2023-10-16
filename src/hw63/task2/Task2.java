@@ -1,5 +1,17 @@
 package hw63.task2;
 
+/**
+ * Пусть есть класс Person с полями String name и int age.
+ *
+ * Написать метод, принимающий лист Persons и возвращающий суммарный возраст
+ * тех, кто старше 17 лет
+ * Написать метод, принимающий лист Persons и возвращающий имена тех,
+ * кто старше 17 лет в виде строки.
+ * Должна быть возвращена строка примерно такого вида:
+ * In this list John and Peter and Ann are older than 17
+ * (В этом списке Джон и Питер и Анн старше 17 лет)
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
