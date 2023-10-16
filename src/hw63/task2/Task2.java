@@ -50,7 +50,7 @@ public class Task2 {
                 .map(Person::getName)
                 .collect(Collectors.toList());
         if (names.isEmpty()) {
-            return "No one is older than "+ аgeCriterion+" years";
+            return "No one is older than "+ аgeCriterion+" years.";
         } else {
             String namesString = String.join(" and ", names);
             return "In this list " + namesString + " are older than "+аgeCriterion;
